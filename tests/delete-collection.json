@@ -1,0 +1,10 @@
+{
+  "name":"Create Test Collection",
+  "group":"default",
+  "description":"Creates a basic collection with an number field as primary key and a string field.",
+  "method":"DELETE",
+  "path": "{endpoint}/{project}/collections/{collectionname}?access_token={token}",
+  "data": { },
+  "expected":null,
+  "result":""
+}

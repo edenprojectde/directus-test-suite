@@ -1,0 +1,7 @@
+# Edit in your data and remove _ at the end of this file.
+{
+  "{endpoint}":"https://directus.instance.com",
+  "{project}":"_",
+  "{collectionname}":"directustests",
+  "{token}":"yourtoken"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "directus-test-suite",
+  "version": "0.0.1",
+  "description": "Directus API Test Suite",
+  "main": "run.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

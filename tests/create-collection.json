@@ -1,0 +1,41 @@
+{
+  "title":"Create Test Collection",
+  "description":"Creates a basic collection with an number field as primary key and a string field.",
+  "group":"default",
+
+  "type":"fetch",
+  "method":"POST",
+  "path": "{endpoint}/{project}/collections?access_token={token}",
+  "data": {
+    "collection": "{collectionname}",
+    "managed": true,
+    "hidden": false,
+    "single": false,
+    "translation": null,
+    "note": "This collection will store all of our projects",
+    "icon": null,
+    "fields": [
+        {
+            "field": "id",
+            "type": "integer",
+            "datatype": "int",
+            "interface": "primary-key",
+            "primary_key": true,
+            "auto_increment": true,
+            "signed": false
+        },
+        {
+            "field": "title",
+            "type": "string",
+            "datatype": "varchar",
+            "interface": "text-input",
+            "length": 255,
+            "readonly": false,
+            "required": true,
+            "note": "The project title"
+        }
+    ]
+  },
+  "expected":{"data":{"collection":"directustests","managed":true,"hidden":false,"single":false,"icon":null,"note":"This collection will store all of our projects","translation":null}},
+  "result":""
+}
